@@ -1,0 +1,6 @@
+{
+  "name": "MC Mobile",
+  "description": "Companion app and launcher for Mc-mobile client for Minecraft Bedrock on Android with HUD customizer, crosshair studio, RakNet server ping, CPS click trainer, and patch guide.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MC Mobile</string>
+    <string name="app_tagline">Quality-of-life companion &amp; launcher for Minecraft Bedrock</string>
+    <string name="tab_launcher">Launcher</string>
+    <string name="tab_hud">HUD Studio</string>
+    <string name="tab_crosshair">Crosshair</string>
+    <string name="tab_servers">Servers</string>
+    <string name="tab_trainer">CPS Test</string>
+    <string name="tab_patcher">Patcher</string>
+    <string name="tab_settings">Settings</string>
+</resources>

@@ -1,0 +1,40 @@
+package com.example.ui.theme
+
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.darkColorScheme
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.graphics.Color
+
+private val DarkColorScheme = darkColorScheme(
+    primary = McAccent,
+    onPrimary = Color.White,
+    primaryContainer = McCard,
+    onPrimaryContainer = McAccentLight,
+    secondary = McAccentLight,
+    onSecondary = Color.Black,
+    secondaryContainer = McChip,
+    onSecondaryContainer = McText,
+    tertiary = McSuccess,
+    onTertiary = Color.Black,
+    background = McBackground,
+    onBackground = McText,
+    surface = McPanel,
+    onSurface = McText,
+    surfaceVariant = McCard,
+    onSurfaceVariant = McMuted,
+    outline = McStroke,
+    outlineVariant = McOff,
+    error = McDanger,
+    onError = Color.White
+)
+
+@Composable
+fun MyApplicationTheme(
+    content: @Composable () -> Unit,
+) {
+    MaterialTheme(
+        colorScheme = DarkColorScheme,
+        typography = Typography,
+        content = content
+    )
+}
